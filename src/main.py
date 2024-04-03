@@ -1,5 +1,8 @@
 import json
 import datetime as dt
+import os
+
+os.chdir(os.path.abspath(os.path.dirname(__file__)) + "/..")
 
 
 def open_json_file(file_path):
